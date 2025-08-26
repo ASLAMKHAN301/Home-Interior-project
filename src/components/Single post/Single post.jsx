@@ -59,6 +59,7 @@ export function SinglePost(props) {
           </div>
         </div>
       </div>
+      //Testimonial
       {/* Blog Content */}
       <div className="md:h-[480px] px-5 mt-5 md:px-28 md:mt-[350px]">
         <p className="text-sm md:text-lg text-[#6E6E6E] font-medium">
