@@ -1,7 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import circleImg from "../../images/circle-img.png";
 import roundedImg from "../../images/rounded-img.png";
 import rightIcon from "../../images/right-icon.png";
-import { Link, NavLink } from "react-router-dom";
+import fIcon from "../../images/grid-social-links/f.png";
+import liIcon from "../../images/grid-social-links/li.png";
+import phoneIcon from "../../images/phone-icon.png";
+import PlayButton from "../../images/Play Button.png";
 
 export function AboutUs(props) {
   return (
@@ -11,7 +16,7 @@ export function AboutUs(props) {
         <div className="bg-[#111827] w-full md:h-[373px] pt-10 md:pt-28 text-white">
           <div className="px-5 md:px-10 md:w-[655px] h-[173px] relative">
             <img
-              src="./src/images/circle-img.png"
+              src={circleImg}
               alt="circle"
               className="absolute top-0 left-[40px]"
             />
@@ -153,7 +158,7 @@ export function AboutUs(props) {
         <div className="px-5 md:px-10 mt-10 md:mt-28">
           <div className="md:w-[655px] md:h-[173px] relative">
             <img
-              src="./src/images/rounded-img.png"
+              src={roundedImg}
               alt=""
               className="absolute -top-5 left-0 -z-10"
             />
@@ -188,7 +193,7 @@ export function AboutUs(props) {
                     <div className="flex justify-between w-[148px] h-[40px]">
                       <div>
                         <img
-                          src="./src/images/grid-social-links/f.png"
+                          src={fIcon}
                           alt=""
                         />
                       </div>
@@ -201,7 +206,7 @@ export function AboutUs(props) {
                       </div>
                       <div>
                         <img
-                          src="./src/images/grid-social-links/li.png"
+                          src={liIcon}
                           alt=""
                         />
                       </div>
@@ -458,7 +463,7 @@ export function AboutUs(props) {
           {/* Phone Card */}
           <div className="md:absolute rounded-2xl md:w-[427px] md:h-[221px] bg-slate-300 top-[100px] left-[190px]">
             <div className="p-10 bg-amber-200 md:bg-white rounded-2xl transition hover:scale-105 cursor-pointer">
-              <img src="./src/images/phone-icon.png" alt="Phone Icon" />
+              <img src={phoneIcon} alt="Phone Icon" />
               <h3 className="font-extrabold tracking-wider text-3xl mt-10 uppercase">
                 Call Us Now
               </h3>
@@ -481,7 +486,7 @@ export function AboutUs(props) {
           <div className="mb-10 md:mb-0 md:mt-36 md:w-[655px] md:h-[471px]">
             <div className="md:h-[275px] relative">
               <img
-                src="./src/images/rounded-img.png"
+                src={roundedImg}
                 alt=""
                 className="absolute top-0 left-0 -z-10"
               />
@@ -548,7 +553,7 @@ export function AboutUs(props) {
               target="_main"
             >
               <img
-                src="./src/images/Play Button.png"
+                src={PlayButton}
                 alt="Play Button"
                 className="hover:invert w-30 h-30 md:w-[150px] md:h-[150px]"
               />
@@ -560,7 +565,7 @@ export function AboutUs(props) {
             {/* Title Section */}
             <div className="md:h-[275px] relative">
               <img
-                src="./src/images/rounded-img.png"
+                src={roundedImg}
                 alt="Rounded Background"
                 className="absolute top-0 left-0 -z-10"
               />
@@ -586,7 +591,7 @@ export function AboutUs(props) {
               <div className="md:h-[108px]">
                 <div className="flex space-x-2 md:space-x-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Flexible Time
@@ -594,7 +599,7 @@ export function AboutUs(props) {
                 </div>
                 <div className="flex space-x-2 md:space-x-5 mt-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Perfect Work
@@ -602,7 +607,7 @@ export function AboutUs(props) {
                 </div>
                 <div className="flex space-x-2 md:space-x-5 mt-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Client Priority
@@ -614,7 +619,7 @@ export function AboutUs(props) {
               <div className="md:w-[344.07px] md:h-[120.66px]">
                 <div className="flex space-x-2 md:space-x-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Flexible Time
@@ -622,7 +627,7 @@ export function AboutUs(props) {
                 </div>
                 <div className="flex space-x-2 md:space-x-5 mt-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Perfect Work
@@ -630,7 +635,7 @@ export function AboutUs(props) {
                 </div>
                 <div className="flex space-x-2 md:space-x-5 mt-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Client Priority

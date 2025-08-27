@@ -1,4 +1,8 @@
 import React from "react";
+import circleImg from "../../images/circle-img.png";
+import roundedImg from "../../images/rounded-img.png";
+import rightIcon from "../../images/right-icon.png";
+import PlayButton from "../../images/Play Button.png";
 
 export function Portfolio(props) {
   return (
@@ -7,7 +11,7 @@ export function Portfolio(props) {
       <div className="bg-[#111827] w-full md:h-[462px]  pt-10 md:pt-28 text-white">
         <div className="px-5 md:px-10 md:w-[655px] h-[200px] md:h-[262px] relative">
           <img
-            src="./src/images/circle-img.png"
+            src={circleImg}
             alt="circle decoration"
             className="absolute top-0 left-[40px]"
           />
@@ -36,7 +40,7 @@ export function Portfolio(props) {
             target="_main"
           >
             <img
-              src="./src/images/Play Button.png"
+              src={PlayButton}
               alt="Play Button"
               className="hover:invert w-30 h-30 md:w-[150px] md:h-[150px]"
             />
@@ -47,7 +51,7 @@ export function Portfolio(props) {
         <div className="md:w-[655px] md:h-[412px] mt-10 md:mt-0">
           <div className="md:h-[207px] relative">
             <img
-              src="./src/images/rounded-img.png"
+              src={roundedImg}
               alt="Background Decoration"
               className="absolute top-0 left-0 -z-10"
             />
@@ -69,15 +73,15 @@ export function Portfolio(props) {
           {/* Features List */}
           <div className="md:h-[108px] mt-5 md:mt-10">
             <div className="flex space-x-2 md:space-x-5 items-center">
-              <img src="./src/images/right-icon.png" alt="check" />
+              <img src={rightIcon} alt="check" />
               <p className="text-lg text-[#6E6E6E]">Prebuild Home</p>
             </div>
             <div className="flex space-x-2 md:space-x-5 mt-3 items-center">
-              <img src="./src/images/right-icon.png" alt="check" />
+              <img src={rightIcon} alt="check" />
               <p className="text-lg text-[#6E6E6E]">Home Design Planning</p>
             </div>
             <div className="flex space-x-2 md:space-x-5 mt-3 items-center">
-              <img src="./src/images/right-icon.png" alt="check" />
+              <img src={rightIcon} alt="check" />
               <p className="text-lg text-[#6E6E6E]">Trend Home Design</p>
             </div>
           </div>
@@ -89,7 +93,7 @@ export function Portfolio(props) {
         {/* Heading Section */}
         <div className="md:w-[655px] h-[173px] relative">
           <img
-            src="./src/images/rounded-img.png"
+            src={roundedImg}
             alt="Decoration"
             className="absolute -top-5 left-0 -z-10"
           />

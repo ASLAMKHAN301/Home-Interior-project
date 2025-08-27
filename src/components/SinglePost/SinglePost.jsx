@@ -1,4 +1,5 @@
 import React from "react";
+import circleImg from "../../images/circle-img.png";
 
 export function SinglePost(props) {
   return (
@@ -7,7 +8,7 @@ export function SinglePost(props) {
       <div className="bg-[#111827] w-full md:h-[473px] pt-10 md:pt-28 text-white">
         <div className="px-5 md:px-10 md:w-[655px] h-[173px] relative">
           <img
-            src="../src/images/circle-img.png"
+            src={circleImg}
             alt="circle"
             className="absolute top-0 left-[40px]"
           />

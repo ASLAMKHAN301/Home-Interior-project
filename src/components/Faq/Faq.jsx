@@ -1,4 +1,6 @@
 import React from "react";
+import circleImg from "../../images/circle-img.png";
+import FaqIcon from "../../images/Faq-icon.png";
 
 export function Faq(props) {
   return (
@@ -7,7 +9,7 @@ export function Faq(props) {
       <div className="bg-[#111827] w-full md:h-[373px] pt-10 md:pt-28 text-white">
         <div className="px-5 md:px-10 md:w-[655px] h-[173px] relative">
           <img
-            src="../src/images/circle-img.png"
+            src={circleImg}
             alt="circle"
             className="absolute top-0 left-[40px]"
           />
@@ -60,7 +62,7 @@ export function Faq(props) {
                 How Long Day Needed ?
               </h3>
               <div>
-                <img src="../src/images/Faq-icon.png" alt="faq icon" />
+                <img src={FaqIcon} alt="faq icon" />
               </div>
             </div>
             <div className="border-[#DADADA] border-[1px] mt-3"></div>
@@ -71,7 +73,7 @@ export function Faq(props) {
                 How To Claim Insurance ?
               </h3>
               <div>
-                <img src="../src/images/Faq-icon.png" alt="faq icon" />
+                <img src={FaqIcon} alt="faq icon" />
               </div>
             </div>
             <div className="border-[#DADADA] border-[1px] mt-3"></div>
@@ -82,7 +84,7 @@ export function Faq(props) {
                 Can I Request People Working ?
               </h3>
               <div>
-                <img src="../src/images/Faq-icon.png" alt="faq icon" />
+                <img src={FaqIcon} alt="faq icon" />
               </div>
             </div>
             <div className="border-[#DADADA] border-[1px] mt-3"></div>
@@ -119,7 +121,7 @@ export function Faq(props) {
                 Where I Get Meeting Day ?
               </h3>
               <div>
-                <img src="../src/images/Faq-icon.png" alt="faq icon" />
+                <img src={FaqIcon} alt="faq icon" />
               </div>
             </div>
             <div className="border-[#DADADA] border-[1px] mt-3"></div>
@@ -130,7 +132,7 @@ export function Faq(props) {
                 Can Homco Pick Me To Office ?
               </h3>
               <div>
-                <img src="../src/images/Faq-icon.png" alt="faq icon" />
+                <img src={FaqIcon} alt="faq icon" />
               </div>
             </div>
             <div className="border-[#DADADA] border-[1px] mt-3"></div>
@@ -141,7 +143,7 @@ export function Faq(props) {
                 Can I Credit This Price ?
               </h3>
               <div>
-                <img src="../src/images/Faq-icon.png" alt="faq icon" />
+                <img src={FaqIcon} alt="faq icon" />
               </div>
             </div>
             <div className="border-[#DADADA] border-[1px] mt-3"></div>

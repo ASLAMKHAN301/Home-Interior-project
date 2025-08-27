@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../../images/headers/Logo.png";
+import icon from "../../images/headers/icon.png";
+import menu from "../../images/headers/menu.png"
 
 export function Header() {
   const [showProjects, setShowProjects] = useState(false);
@@ -33,7 +36,7 @@ export function Header() {
         <div className="flex justify-between items-center px-5 md:px-10 h-[123px] text-black font-medium text-lg uppercase">
           <Link to="/">
             <img
-              src="./src/images/headers/Logo.png"
+              src={logo}
               alt="Logo"
               className="invert hover:brightness-20"
             />
@@ -104,7 +107,7 @@ export function Header() {
                   }}
                 >
                   <img
-                    src="./src/images/headers/icon.png"
+                    src={icon}
                     alt="icon"
                     className="invert w-4 h-3 hover:brightness-20"
                   />
@@ -170,7 +173,7 @@ export function Header() {
                   }}
                 >
                   <img
-                    src="./src/images/headers/icon.png"
+                    src={icon}
                     alt="icon"
                     className="invert w-4 h-3 hover:brightness-20"
                   />
@@ -212,7 +215,7 @@ export function Header() {
                   </span>
                 ) : (
                   <img
-                    src="./src/images/headers/menu.png"
+                    src={menu}
                     className="invert px-4 cursor-pointer hover:brightness-20"
                     alt="menu"
                   />

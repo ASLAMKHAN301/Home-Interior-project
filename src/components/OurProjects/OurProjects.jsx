@@ -1,5 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import circleImg from "../../images/circle-img.png";
+import roundedImg from "../../images/rounded-img.png";
+import rightIcon from "../../images/right-icon.png";
 
 const services = [
   {
@@ -35,7 +38,7 @@ export function OurProjects(props) {
       <div className="bg-[#111827] w-full md:h-[373px] pt-10 md:pt-28 text-white">
         <div className="px-5 md:px-10 md:w-[655px] h-[173px] relative">
           <img
-            src="../src/images/circle-img.png"
+            src={circleImg}
             alt="circle"
             className="absolute top-0 left-[40px]"
           />
@@ -54,7 +57,7 @@ export function OurProjects(props) {
         <div className="mb-10 md:mb-0 md:mt-36 md:w-[655px] md:h-[471px]">
           <div className="md:h-[275px] relative">
             <img
-              src="../src/images/rounded-img.png"
+              src={roundedImg}
               alt=""
               className="absolute top-0 left-0 -z-10"
             />
@@ -137,7 +140,7 @@ export function OurProjects(props) {
                     <div key={idx} className="flex space-x-5 mt-3 items-center">
                       <div>
                         <img
-                          src="../src/images/right-icon.png"
+                          src={rightIcon}
                           alt="check icon"
                         />
                       </div>
