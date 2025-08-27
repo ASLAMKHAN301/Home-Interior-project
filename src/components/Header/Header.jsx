@@ -308,7 +308,7 @@ export function Header() {
                   Blog
                 </Link>
                 <Link
-                  to="/ppages/post"
+                  to="/pages/post"
                   className="block px-4 md:py-2 uppercase font-medium text-lg text-black hover:text-amber-500"
                   onClick={() => setShowMenu(false)}
                 >
