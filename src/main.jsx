@@ -12,7 +12,7 @@ import { Portfolio } from "./components/Portfolio/Portfolio";
 import { Faq } from "./components/Faq/Faq";
 import { Blog } from "./components/Blog/Blog";
 import { SinglePost } from "./components/SinglePost/SinglePost";
-import { Project2 } from "./components/Project2/project2";
+import { Project2 } from "./components/Project2/Project2";
 import ContactUs from "./components/ContactUs/ContactUs";
 
 const router = createBrowserRouter(
