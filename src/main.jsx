@@ -5,15 +5,15 @@ import { BrowserRouter, createBrowserRouter, createRoutesFromElements, Route, Ro
 import App from "./App";
 import "./index.css";
 import Home from "./components/Home/Home";
-import { AboutUs } from "./components/About us/About  us";
-import { OurServices } from "./components/Our services/Our services";
-import { OurProjects } from "./components/Our projects/Our projects";
+import { AboutUs } from "./components/AboutUs/AboutUs";
+import { OurServices } from "./components/OurServices/OurServices";
+import { OurProjects } from "./components/OurProjects/OurProjects";
 import { Portfolio } from "./components/Portfolio/Portfolio";
 import { Faq } from "./components/Faq/Faq";
 import { Blog } from "./components/Blog/Blog";
-import { SinglePost } from "./components/Single post/Single post";
-import { Project2 } from "./components/Project 2/project2";
-import ContactUs from "./components/Contact us/Contact us";
+import { SinglePost } from "./components/SinglePost/SinglePost";
+import { Project2 } from "./components/Project2/project2";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
