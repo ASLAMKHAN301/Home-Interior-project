@@ -289,7 +289,7 @@ export function OurServices(props) {
               target="_main"
             >
               <img
-                src="./src/images/Play Button.png"
+                src={PlayButton}
                 alt="Play Button"
                 className="hover:invert w-30 h-30 md:w-[150px] md:h-[150px]"
               />

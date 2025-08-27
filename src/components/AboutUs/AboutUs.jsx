@@ -239,7 +239,7 @@ export function AboutUs(props) {
                       <div className="flex justify-between w-[148px] h-[40px]">
                         <div>
                           <img
-                            src="./src/images/grid-social-links/f.png"
+                            src={fIcon}
                             alt=""
                           />
                         </div>
@@ -252,7 +252,7 @@ export function AboutUs(props) {
                         </div>
                         <div>
                           <img
-                            src="./src/images/grid-social-links/li.png"
+                            src={liIcon}
                             alt=""
                           />
                         </div>
@@ -285,7 +285,7 @@ export function AboutUs(props) {
                     <div className="flex justify-between w-[148px] h-[40px]">
                       <div>
                         <img
-                          src="./src/images/grid-social-links/f.png"
+                          src={fIcon}
                           alt=""
                         />
                       </div>
@@ -298,7 +298,7 @@ export function AboutUs(props) {
                       </div>
                       <div>
                         <img
-                          src="./src/images/grid-social-links/li.png"
+                          src={liIcon}
                           alt=""
                         />
                       </div>
@@ -331,7 +331,7 @@ export function AboutUs(props) {
                       <div className="flex justify-between w-[148px] h-[40px]">
                         <div>
                           <img
-                            src="./src/images/grid-social-links/f.png"
+                            src={fIcon}
                             alt=""
                           />
                         </div>
@@ -344,7 +344,7 @@ export function AboutUs(props) {
                         </div>
                         <div>
                           <img
-                            src="./src/images/grid-social-links/li.png"
+                            src={liIcon}
                             alt=""
                           />
                         </div>
@@ -377,7 +377,7 @@ export function AboutUs(props) {
                     <div className="flex justify-between w-[148px] h-[40px]">
                       <div>
                         <img
-                          src="./src/images/grid-social-links/f.png"
+                          src={fIcon}
                           alt=""
                         />
                       </div>
@@ -390,7 +390,7 @@ export function AboutUs(props) {
                       </div>
                       <div>
                         <img
-                          src="./src/images/grid-social-links/li.png"
+                          src={liIcon}
                           alt=""
                         />
                       </div>
@@ -423,7 +423,7 @@ export function AboutUs(props) {
                       <div className="flex justify-between w-[148px] h-[40px]">
                         <div>
                           <img
-                            src="./src/images/grid-social-links/f.png"
+                            src={fIcon}
                             alt=""
                           />
                         </div>
@@ -436,7 +436,7 @@ export function AboutUs(props) {
                         </div>
                         <div>
                           <img
-                            src="./src/images/grid-social-links/li.png"
+                            src={liIcon}
                             alt=""
                           />
                         </div>
