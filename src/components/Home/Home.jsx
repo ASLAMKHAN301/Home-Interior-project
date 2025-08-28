@@ -479,7 +479,7 @@ const Home = () => {
               <div className="md:w-[344.07px] md:h-[120.66px]">
                 <div className="flex space-x-2 md:space-x-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Flexible Time
@@ -487,7 +487,7 @@ const Home = () => {
                 </div>
                 <div className="flex space-x-2 md:space-x-5 mt-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Perfect Work
@@ -495,7 +495,7 @@ const Home = () => {
                 </div>
                 <div className="flex space-x-2 md:space-x-5 mt-5 items-center">
                   <div>
-                    <img src="./src/images/right-icon.png" alt="Right Icon" />
+                    <img src={rightIcon} alt="Right Icon" />
                   </div>
                   <p className="text-sm md:text-lg text-[#6E6E6E]">
                     Client Priority

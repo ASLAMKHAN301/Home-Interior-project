@@ -170,7 +170,7 @@ export function AboutUs(props) {
             </h1>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 pt-8">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 pt-20 md:pt-8">
             {/* Card 1 */}
             <div className="md:h-[706px] border-[#DADADA] border-[1px] rounded-2xl transition hover:scale-105 cursor-pointer">
               <div className="h-[300px] md:h-[500px] bg-[#C4C4C4] hover:bg-amber-300 rounded-t-2xl">
